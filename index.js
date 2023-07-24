@@ -13,10 +13,10 @@ app.use(express.json());
 app.use(UserRoute);
 
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "data_db"
+    host: "bywqzudzwv2bbojde76h-mysql.services.clever-cloud.com",
+    user: "uhl3p5jjhi5nuq3v",
+    password: "Hm9cZHXxTb9ZZy8QSXbo",
+    database: "bywqzudzwv2bbojde76h"
 })
 
 app.post('/data_db', (req, res) => {
